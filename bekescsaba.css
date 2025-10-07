@@ -83,9 +83,9 @@ a:link{
     text-decoration: none;
 }
 
-a .left{
+.left a{
     color: #7ADAA5;
 }
-a .right{
+.right a{
     color: #E1AA36;
 }
