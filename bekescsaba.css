@@ -2,9 +2,6 @@ body {
     height: 100%;
     margin: 0;
     overflow: hidden;
-}
-
-body {
     display: flex;
     min-height: 100vh;
     font-family: system-ui, Segoe UI, Roboto, Arial;
@@ -19,6 +16,7 @@ body {
     background-size: cover;
     background-position: center;
     transition: all 0.4s ease, filter 0.4s ease;
+    text-shadow: 20 px;
 }
 
 .left {
