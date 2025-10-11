@@ -1,0 +1,170 @@
+/* Alapok */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffcc5c, #f2ae72);
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+nav {
+    background: linear-gradient(90deg, #588c7e, #5b9aa0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    background: linear-gradient(90deg, #96ceb4, #588c7e);
+    color: #e06377;
+    text-shadow: #80231a 2px 3px 2px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+nav .hamburger {
+    display: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    color: white;
+    padding: 10px 5px;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul.menu li a:hover {
+    color: #ffecb3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #4444aa;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.dropdown-content li a {
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+/* Hamburbur menü mobilon */
+#menu-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul.menu {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background: #6a11cb;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    #menu-toggle:checked + .hamburger + ul.menu {
+        display: flex;
+    }
+
+    .dropdown-content {
+        position: relative;
+        background: #4444aa;
+    }
+}
+
+/* Szakaszok */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+/* Látnivalók kártyák */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 10px 0;
+}
+
+.card p {
+    font-size: 0.95em;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2575fc;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+.image-text {
+  font-size: clamp(10vw, 15vmax, 16vw);
+  font-weight: bold;
+  background: url(kep/cimer.png) no-repeat center/cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+
+}
