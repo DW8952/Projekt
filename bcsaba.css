@@ -143,7 +143,9 @@ h1, h2 {
 }
 
 .card p {
-    font-size: 0.95em;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 10px 
 }
 
 .card a {
@@ -167,4 +169,8 @@ h1, h2 {
   -webkit-text-fill-color: transparent;
   text-align: center;
 
+}
+
+#latnivalok{
+    margin: 30px;
 }
