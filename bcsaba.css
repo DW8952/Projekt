@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ffcc5c, #f2ae72);
+    background: linear-gradient(to right, #ffcc5c, #f8a342);
     color: #333;
 }
 
@@ -170,7 +170,25 @@ h1, h2 {
   text-align: center;
 
 }
-
+hr{
+    border: 2px solid black;
+    width: 80%;
+}
 #latnivalok{
     margin: 30px;
+}
+h1{
+    font-size: 6em;
+    background: url(kep/cimer.png) no-repeat center/cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+#home p{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
