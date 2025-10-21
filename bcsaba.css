@@ -1,6 +1,6 @@
 /* Alapok */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Monospace';
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #ffcc5c, #f8a342);
@@ -19,6 +19,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    position: sticky;
+    top: 0;
 }
 
 nav .logo {
@@ -170,9 +172,10 @@ h1, h2 {
   text-align: center;
 
 }
-hr{
+hr {
     border: 2px solid black;
     width: 80%;
+    margin-bottom: 60px;
 }
 #latnivalok{
     margin: 30px;
@@ -191,4 +194,42 @@ h1{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+h2{
+    font-size: 2.5rem;
+}
+#tortenet p{
+
+    font-size: 1.5rem;
+    text-align: justify;
+}
+   
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.egy img{
+    float: left;
+    margin-right: 115px;
+    width: 520px;
+    border-radius: 50px;
+}
+.keto img{
+    float: right;
+    margin-left: 120px;
+    width: 550px;
+    border-radius: 50px;
+}
+.harom img{
+    float: left;
+    margin-right: 115px;
+    width: 550px;
+    border-radius: 50px;
+}
+.flex{
+    border: 8px double #5b9aa0;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 40px;
+    padding: 30px;
 }
