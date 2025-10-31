@@ -11,7 +11,7 @@ a{
 }
 
 nav {
-    background: #588c7e;
+    background: #ffcc5c;
     position: relative;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ nav {
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #c3b75d,#ffcc5c);
+    background: linear-gradient(90deg, #fdef81,#ffcc5c);
     color: #588c7e;
     text-shadow: #588c7e 2px 3px 2px;
     font-weight: bold;
@@ -58,7 +58,7 @@ nav ul.menu li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #588c7e;
+    background: #ffcc5c;
     top: 100%;
     left: 0;
     flex-direction: column;
@@ -85,7 +85,7 @@ nav ul.menu li a {
         flex-direction: column;
         display: none;
         width: 100%;
-        background: #588c7e;
+        background: #ffcc5c;
     }
 
     nav .hamburger {
@@ -98,7 +98,7 @@ nav ul.menu li a {
 
     .dropdown-content {
         position: relative;
-        background: #588c7e;
+        background: #fdef81;
     }
 }
 
@@ -129,7 +129,7 @@ h2, h3 {
     padding: 20px;
     max-width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #588c7e;
+    background-color: #ffcc5c;
 }
 
 .card img {
@@ -150,7 +150,7 @@ h2, h3 {
 .card a {
     display: inline-block;
     margin-top: 10px;
-    color: #ffcc5c;
+    color: #588c7e;
     font-weight: bold;
 }
 
@@ -211,7 +211,7 @@ h2{
 }
 
 .flex{
-    border: 8px double #588c7e;
+    border: 8px double #ffcc5c;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;
@@ -221,7 +221,7 @@ h2{
 
 
 .image-text {
-  font-size: 6em;
+  font-size: 8em;
   background: url(kep/bekes_cimer.png) no-repeat center/cover;
   background-size: 150%;
   -webkit-background-clip: text;
