@@ -114,7 +114,8 @@ section {
 }
 
 h2, h3 {
-    color: #1a1a1a;
+    color: black;
+    font-size: 130%;
     margin-bottom: 20px;
 }
 
@@ -123,7 +124,7 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .card {
@@ -197,11 +198,6 @@ h2{
     font-size: 1.5rem;
     text-align: justify;
 }
-   
-.flex{
-    display: flex;
-    flex-direction: column;
-}
 .egy img{
     float: left;
     margin-right: 115px;
@@ -220,10 +216,21 @@ h2{
     width: 550px;
     border-radius: 50px;
 }
+.negy img{
+    float: right;
+    margin-left: 120px;
+    width: 600px;
+    border-radius: 50px;
+}
 .flex{
+    display: flex;
+    flex-direction: column;
     border: 8px double #588c7e;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;
     padding: 30px;
+}
+#tortenet h3{
+    font-size: 180%;
 }

@@ -109,7 +109,7 @@ section {
 }
 
 h2, h3 {
-    color: #1a1a1a;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -161,11 +161,9 @@ hr {
     width: 80%;
     margin-bottom: 60px;
 }
-
 #latnivalok{
     margin: 30px;
 }
-
 #home p{
     font-size: 1.5rem;
     width: 70%;
@@ -173,53 +171,44 @@ hr {
     margin-right: auto;
     margin-left: auto;
 }
-
 h2{
     font-size: 2.5rem;
 }
-
 #tortenet p{
 
     font-size: 1.5rem;
     text-align: justify;
 }
-   
-.flex{
-    display: flex;
-    flex-direction: column;
-}
-
 .egy img{
     float: left;
-    margin-right: 115px;
-    width: 520px;
+    margin-right: 125px;
+    width: 620px;
     border-radius: 50px;
 }
-
 .keto img{
     float: right;
     margin-left: 120px;
     width: 550px;
     border-radius: 50px;
 }
-
 .harom img{
     float: left;
     margin-right: 115px;
     width: 550px;
     border-radius: 50px;
 }
-
 .flex{
     border: 8px double #ffcc5c;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;
-    padding: 30px;
+    padding: 20px 65px;
+    display: flex;
+    flex-direction: column;
 }
-
-
-
+#tortenet h3{
+    font-size: 180%;
+}
 .image-text {
   font-size: 8em;
   background: url(kep/bekes_cimer.png) no-repeat center/cover;
