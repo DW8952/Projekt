@@ -219,7 +219,7 @@ h2{
 .negy img{
     float: right;
     margin-left: 120px;
-    width: 600px;
+    width: 610px;
     border-radius: 50px;
 }
 .flex{
@@ -233,4 +233,7 @@ h2{
 }
 #tortenet h3{
     font-size: 180%;
+}
+header{
+    background-image: url(/kep/csabahead.jpg);
 }

@@ -181,19 +181,19 @@ h2{
 }
 .egy img{
     float: left;
-    margin-right: 125px;
-    width: 620px;
+    margin-right: 100px;
+    width: 490px;
     border-radius: 50px;
 }
 .keto img{
     float: right;
-    margin-left: 120px;
-    width: 550px;
+    margin-left: 110px;
+    width: 480px;
     border-radius: 50px;
 }
 .harom img{
     float: left;
-    margin-right: 115px;
+    margin-right: 100px;
     width: 550px;
     border-radius: 50px;
 }
@@ -217,5 +217,7 @@ h2{
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-
+}
+section{
+    background-image: url(/kep/bekeshead.jpg);
 }
