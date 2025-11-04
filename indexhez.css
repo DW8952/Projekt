@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -31,8 +31,11 @@ body {
 .left {
   background-image: url(kep/bekes.jpg);
 }
-.right {
+.mid {
   background-image: url(kep/bcsaba.jpg);
+}
+.right{
+  background-image: url(kep/gyul.JPG);
 }
 
 .fill {
