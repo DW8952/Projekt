@@ -1,19 +1,17 @@
-/* Alapok */
 body {
     font-family: 'Monospace';
     margin: 0;
     padding: 0;
-    background-color: #6A669D;
-    color: #84994F;
+    background-color: #84994F;
+    color: #1C325B;
 }
 
-a {
+a{
     text-decoration: none;
-    transition: all 0.3s;
 }
 
 nav {
-    background: #84994F;
+    background: #1C325B;
     position: relative;
     display: flex;
     align-items: center;
@@ -24,9 +22,9 @@ nav {
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #cadd9b, #84994F);
-    color: #6A669D;
-    text-shadow: #44425e 2px 3px 2px;
+    background: linear-gradient(90deg, #3a4c6e,#1C325B);
+    color: #84994F;
+    text-shadow: #4e6816 2px 3px 2px;
     font-weight: bold;
     font-size: 1.7em;
 }
@@ -57,14 +55,10 @@ nav ul.menu li a {
     font-weight: bold;
 }
 
-nav ul.menu li a:hover {
-    color: #ffecb3;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #84994F;
+    background: #1C325B;
     top: 100%;
     left: 0;
     flex-direction: column;
@@ -80,7 +74,8 @@ nav ul.menu li a:hover {
     display: flex;
 }
 
-/* Hamburbur menü mobilon */
+/* responsive */
+
 #menu-toggle {
     display: none;
 }
@@ -90,7 +85,7 @@ nav ul.menu li a:hover {
         flex-direction: column;
         display: none;
         width: 100%;
-        background: #84994F;
+        background: #1C325B;
     }
 
     nav .hamburger {
@@ -103,7 +98,7 @@ nav ul.menu li a:hover {
 
     .dropdown-content {
         position: relative;
-        background: #96ceb4;
+        background: #fdef81;
     }
 }
 
@@ -115,26 +110,26 @@ section {
 
 h2, h3 {
     color: black;
-    font-size: 130%;
     margin-bottom: 20px;
 }
 
-/* Látnivalók kártyák */
+/* kartyak */
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
 }
 
 .card {
-    color: #6A669D;
+    color: #1C325B;
     border-radius: 15px;
     box-shadow: 12px 8px 20px rgba(0,0,0, 0.65);
     padding: 20px;
     max-width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #1C325B;
+    background-color: #afabdb;
 }
 
 .card img {
@@ -155,26 +150,12 @@ h2, h3 {
 .card a {
     display: inline-block;
     margin-top: 10px;
-    color: #6A669D;
+    color: #1C325B;
     font-weight: bold;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
-}
+/* ect */
 
-/* stb */
-
-.image-text {
-  font-size: 6em;
-  background: url(kep/cimer.png) no-repeat center/cover;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-
-}
 hr {
     border: 2px solid black;
     width: 80%;
@@ -200,40 +181,43 @@ h2{
 }
 .egy img{
     float: left;
-    margin-right: 115px;
-    width: 520px;
+    margin-right: 100px;
+    width: 490px;
     border-radius: 50px;
 }
 .keto img{
     float: right;
-    margin-left: 120px;
-    width: 550px;
+    margin-left: 110px;
+    width: 480px;
     border-radius: 50px;
 }
 .harom img{
     float: left;
-    margin-right: 115px;
+    margin-right: 100px;
     width: 550px;
     border-radius: 50px;
 }
-.negy img{
-    float: right;
-    margin-left: 120px;
-    width: 610px;
-    border-radius: 50px;
-}
 .flex{
-    display: flex;
-    flex-direction: column;
-    border: 8px double #84994F;
+    border: 8px double #1C325B;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;
-    padding: 30px;
+    padding: 20px 65px;
+    display: flex;
+    flex-direction: column;
 }
 #tortenet h3{
     font-size: 180%;
 }
-header{
-    background-image: url(/kep/csabahead.jpg);
+.image-text {
+  font-size: 8em;
+  background: url(kep/bekes_cimer.png) no-repeat center/cover;
+  background-size: 150%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+section{
+    background-image: url(/kep/bekeshead.jpg);
 }

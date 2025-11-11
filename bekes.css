@@ -2,8 +2,8 @@ body {
     font-family: 'Monospace';
     margin: 0;
     padding: 0;
-    background-color: #588c7e;
-    color: #333;
+    background-color: #1C325B;
+    color: #6A669D;
 }
 
 a{
@@ -11,7 +11,7 @@ a{
 }
 
 nav {
-    background: #ffcc5c;
+    background: #6A669D;
     position: relative;
     display: flex;
     align-items: center;
@@ -22,9 +22,9 @@ nav {
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #fdef81,#ffcc5c);
-    color: #588c7e;
-    text-shadow: #588c7e 2px 3px 2px;
+    background: linear-gradient(90deg, #afabdb,#6A669D);
+    color: #1C325B;
+    text-shadow: #2d3c58 2px 3px 2px;
     font-weight: bold;
     font-size: 1.7em;
 }
@@ -58,7 +58,7 @@ nav ul.menu li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #ffcc5c;
+    background: #6A669D;
     top: 100%;
     left: 0;
     flex-direction: column;
@@ -85,7 +85,7 @@ nav ul.menu li a {
         flex-direction: column;
         display: none;
         width: 100%;
-        background: #ffcc5c;
+        background: #6A669D;
     }
 
     nav .hamburger {
@@ -123,13 +123,13 @@ h2, h3 {
 }
 
 .card {
-    background: white;
+    color: #f1e5a7;
     border-radius: 15px;
     box-shadow: 12px 8px 20px rgba(0,0,0, 0.65);
     padding: 20px;
     max-width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #ffcc5c;
+    background-color: #84994F;
 }
 
 .card img {
@@ -150,7 +150,7 @@ h2, h3 {
 .card a {
     display: inline-block;
     margin-top: 10px;
-    color: #588c7e;
+    color: #1C325B;
     font-weight: bold;
 }
 
@@ -198,7 +198,7 @@ h2{
     border-radius: 50px;
 }
 .flex{
-    border: 8px double #6657a8;
+    border: 8px double #6A669D;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;
