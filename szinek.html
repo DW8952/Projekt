@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p style="color: #55e7ff;">#55e7ff</p> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Színek</title>
+  </head>
+  <body>
+    <p style="color: #55e7ff">#55e7ff</p>
+    <p style="color: #00ccfe">#00ccfe</p>
+    <p style="color: #2011a2">#2011a2</p>
+    <p style="color: #ff34b2">#ff34b2</p>
+    ű
+    <input type="color" id="pick" />
+    <p id="out"></p>
+
+    <script>
+      pick.addEventListener("input", () => {
+        out.textContent = pick.value;
+      });
+    </script>
+
+    <a href="index.html"><button>Vissza a főoldalra</button></a>
+  </body>
 </html>
