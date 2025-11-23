@@ -19,6 +19,7 @@ nav {
     padding: 10px 20px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 nav .logo {
@@ -194,6 +195,12 @@ h2{
 .harom img{
     float: left;
     margin-right: 100px;
+    width: 550px;
+    border-radius: 50px;
+}
+.negy img{
+    float: right;
+    margin-left: 120px;
     width: 550px;
     border-radius: 50px;
 }

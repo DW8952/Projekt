@@ -21,6 +21,7 @@ nav {
     padding: 10px 20px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 nav .logo {
@@ -124,7 +125,7 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
 }
 
 .card {
