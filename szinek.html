@@ -6,19 +6,47 @@
     <title>Színek</title>
   </head>
   <body>
-    <p style="color: #55e7ff">#55e7ff</p>
-    <p style="color: #00ccfe">#00ccfe</p>
-    <p style="color: #2011a2">#2011a2</p>
-    <p style="color: #ff34b2">#ff34b2</p>
-    <p style="color: #8621d5;">#8621d5</p>
+
     <input type="color" id="pick" />
-    <p id="out"></p>
+    
+    <h1>Szinek a weblapon</h1>
+    <p style="background-color: #1C325B;">#1C325B</p>
+    <p style="background-color: #84994F;">#84994F</p>
+    <p style="background-color: #6A669D;">#6A669D</p>
+
+    <h1>Szinek a címben</h1>
+    <p style="background-color: #55e7ff">#55e7ff</p>
+    <p style="background-color: #00ccfe">#00ccfe</p>
+    <p style="background-color: #2011a2">#2011a2</p>
+    <p style="background-color: #ff34b2">#ff34b2</p>
+    <p style="background-color: #8621d5;">#8621d5</p>
+
+    <style>
+      p{
+        font-size: 2em;
+        width: 200px;
+        margin: 10px;
+      }
+      input{
+        float: right;
+        margin-right: 74%;
+        margin-top: 10px;
+      }
+    </style>
+
     <script>
       pick.addEventListener("input", () => {
         out.textContent = pick.value;
       });
+            
+      let color = document.getElementById("pick")
+
+      color.addEventListener("change",() => document.body.style.backgroundColor = color.value)
+
     </script>
 
-    <a href="index.html"><button>Vissza a főoldalra</button></a>
+
+    <br>
+    <p><a href="index.html"><button>Vissza a főoldalra</button></a></p>
   </body>
 </html>
