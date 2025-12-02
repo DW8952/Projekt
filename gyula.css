@@ -2,7 +2,7 @@ body {
     font-family: 'Monospace';
     margin: 0;
     padding: 0;
-    background-color: #84994F;
+    background-color: #240768;
     color: #1C325B;
 }
 
@@ -24,8 +24,8 @@ nav {
 
 nav .logo {
     background: linear-gradient(90deg, #3a4c6e,#1C325B);
-    color: #84994F;
-    text-shadow: #4e6816 2px 3px 2px;
+    color: #b6009e;
+    text-shadow: #8621d5 2px 3px 2px;
     font-weight: bold;
     font-size: 1.7em;
 }
@@ -80,13 +80,13 @@ nav ul.menu li a {
 #menu-toggle {
     display: none;
 }
-
+ 
 @media screen and (max-width: 768px) {
     nav ul.menu {
         flex-direction: column;
         display: none;
         width: 100%;
-        background: #1C325B;
+        background: #9b5730;
     }
 
     nav .hamburger {
@@ -110,7 +110,7 @@ section {
 }
 
 h2, h3 {
-    color: black;
+    color: #00ccfe;
     margin-bottom: 20px;
 }
 
@@ -165,7 +165,7 @@ h2, h3 {
 /* ect */
 
 hr {
-    border: 2px solid black;
+    border: 2px solid #00ccfe;
     width: 80%;
     margin-bottom: 60px;
 }
