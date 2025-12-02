@@ -11,7 +11,7 @@ a{
 }
 
 nav {
-    background: #1C325B;
+    background: #260aa1;
     position: relative;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ nav {
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #3a4c6e,#1C325B);
+    background: linear-gradient(90deg, #7c06b370,#260aa1);
     color: #b6009e;
     text-shadow: #8621d5 2px 3px 2px;
     font-weight: bold;
