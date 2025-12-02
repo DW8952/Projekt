@@ -163,8 +163,6 @@ h3 {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* ect */
-
 hr {
   border: 2px solid #00ccfe;
   width: 80%;
@@ -180,39 +178,47 @@ hr {
   margin-right: auto;
   margin-left: auto;
 }
-h2 {
-  font-size: 2.5rem;
+.row {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+  margin-bottom: 60px;
 }
+.flexb {
+  width: 80%;
+  margin: 0 auto;
+}
+.row img {
+  width: 40%;
+  max-width: 500px;
+  border-radius: 30px;
+}
+
+.row .text {
+  flex: 1;
+}
+
 #tortenet p {
-  font-size: 1.5rem;
+  font-size: 30px;
   text-align: justify;
-  overflow: hidden;
+  line-height: 1.1;
 }
-
-#tortenet img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50px;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
-
-.egy img {
-  float: left;
-  margin-right: 40px;
+.keto,
+.negy {
+  flex-direction: row-reverse;
 }
-
-.keto img {
-  float: right;
-  margin-left: 40px;
-}
-
-.harom img {
-  float: left;
-  margin-right: 40px;
-}
-
-.negy img {
-  float: right;
-  margin-left: 40px;
+.row {
+  border: 3px solid #003366;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
 }
 
 .flex {
