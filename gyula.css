@@ -1,227 +1,231 @@
 body {
-    font-family: 'Monospace';
-    margin: 0;
-    padding: 0;
-    background-color: #240768;
-    color: #1C325B;
+  font-family: "Monospace";
+  margin: 0;
+  padding: 0;
+  background-color: #240768;
+  color: #3da0c7;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 nav {
-    background: #260aa1;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+  background: #260aa1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #7c06b370,#260aa1);
-    color: #b6009e;
-    text-shadow: #8621d5 2px 3px 2px;
-    font-weight: bold;
-    font-size: 1.7em;
+  background: linear-gradient(90deg, #7c06b370, #260aa1);
+  color: #b6009e;
+  text-shadow: #8621d5 2px 3px 2px;
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
 nav .hamburger {
-    display: none;
-    font-size: 2em;
-    color: white;
-    cursor: pointer;
+  display: none;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
 }
 
 nav ul.menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul.menu li {
-    position: relative;
-    margin: 0 15px;
+  position: relative;
+  margin: 0 15px;
 }
 
 nav ul.menu li a {
-    color: white;
-    padding: 10px 5px;
-    display: block;
-    font-weight: bold;
+  color: white;
+  padding: 10px 5px;
+  display: block;
+  font-weight: bold;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background: #1C325B;
-    top: 100%;
-    left: 0;
-    flex-direction: column;
-    min-width: 200px;
-    border-radius: 5px;
+  display: none;
+  position: absolute;
+  background: #1c325b;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  min-width: 200px;
+  border-radius: 5px;
 }
 
 .dropdown-content li a {
-    padding: 10px;
+  padding: 10px;
 }
 
 .dropdown:hover .dropdown-content {
-    display: flex;
+  display: flex;
 }
 
 /* responsive */
 
 #menu-toggle {
-    display: none;
+  display: none;
 }
- 
+
 @media screen and (max-width: 768px) {
-    nav ul.menu {
-        flex-direction: column;
-        display: none;
-        width: 100%;
-        background: #9b5730;
-    }
+  nav ul.menu {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    background: #9b5730;
+  }
 
-    nav .hamburger {
-        display: block;
-    }
+  nav .hamburger {
+    display: block;
+  }
 
-    #menu-toggle:checked + .hamburger + ul.menu {
-        display: flex;
-    }
+  #menu-toggle:checked + .hamburger + ul.menu {
+    display: flex;
+  }
 
-    .dropdown-content {
-        position: relative;
-        background: #fdef81;
-    }
+  .dropdown-content {
+    position: relative;
+    background: #fdef81;
+  }
 }
 
 /* Szakaszok */
 section {
-    padding: 50px 20px;
-    text-align: center;
+  padding: 50px 20px;
+  text-align: center;
 }
 
-h2, h3 {
-    color: #00ccfe;
-    margin-bottom: 20px;
+h2,
+h3 {
+  color: #165ebd;
+  margin-bottom: 20px;
 }
 
 /* kartyak */
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    margin-right: 100px;
-    margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .card {
-    color: #1C325B;
-    border-radius: 15px;
-    box-shadow: 12px 8px 20px rgba(0,0,0, 0.65);
-    padding: 20px;
-    max-width: 300px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #afabdb;
+  color: #1c325b;
+  border-radius: 15px;
+  box-shadow: 12px 8px 20px rgba(0, 0, 0, 0.65);
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #afabdb;
 }
 
 .card img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card h3 {
-    margin: 15px 0 10px 0;
+  margin: 15px 0 10px 0;
 }
 
 .card p {
-    font-size: 0.9em;
-    text-align: justify;
-    padding: 10px 
+  font-size: 0.9em;
+  text-align: justify;
+  padding: 10px;
 }
 
 .card a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #1C325B;
-    font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  color: #1c325b;
+  font-weight: bold;
 }
 
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
 
 /* ect */
 
 hr {
-    border: 2px solid #00ccfe;
-    width: 80%;
-    margin-bottom: 60px;
+  border: 2px solid #00ccfe;
+  width: 80%;
+  margin-bottom: 60px;
 }
-#latnivalok{
-    margin: 30px;
+#latnivalok {
+  margin: 30px;
 }
-#home p{
-    font-size: 1.5rem;
-    width: 70%;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+#home p {
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
-h2{
-    font-size: 2.5rem;
+h2 {
+  font-size: 2.5rem;
 }
-#tortenet p{
+#tortenet p {
+  font-size: 1.5rem;
+  text-align: justify;
+  overflow: hidden;
+}
 
-    font-size: 1.5rem;
-    text-align: justify;
+#tortenet img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
 }
-.egy img{
-    float: left;
-    margin-right: 70px;
-    width: 540px;
-    border-radius: 50px;
+
+.egy img {
+  float: left;
+  margin-right: 40px;
 }
-.keto img{
-    float: right;
-    margin-left: 90px;
-    width: 500px;
-    border-radius: 50px;
+
+.keto img {
+  float: right;
+  margin-left: 40px;
 }
-.harom img{
-    float: left;
-    margin-right: 80px;
-    width: 480px;
-    border-radius: 50px;
+
+.harom img {
+  float: left;
+  margin-right: 40px;
 }
-.negy img{
-    float: right;
-    margin-left: 80px;
-    width: 470px;
-    border-radius: 50px;
+
+.negy img {
+  float: right;
+  margin-left: 40px;
 }
-.flex{
-    border: 8px double #1C325B;
-    margin-left: 230px;
-    margin-right: 230px;
-    border-radius: 40px;
-    padding: 20px 65px;
-    display: flex;
-    flex-direction: column;
+
+.flex {
+  border: 8px double #1c325b;
+  margin-left: 230px;
+  margin-right: 230px;
+  border-radius: 40px;
+  padding: 20px 65px;
+  display: flex;
+  flex-direction: column;
 }
-#tortenet h3{
-    font-size: 180%;
+#tortenet h3 {
+  font-size: 180%;
 }
 .image-text {
   font-size: 8em;
@@ -231,7 +235,4 @@ h2{
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-}
-section{
-    background-image: url(/kep/bekeshead.jpg);
 }
