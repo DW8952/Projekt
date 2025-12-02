@@ -3,8 +3,8 @@ body {
     font-family: 'Monospace';
     margin: 0;
     padding: 0;
-    background-color: #6A669D;
-    color: #84994F;
+    background-color: #540a91;
+    color: #a275c7;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 }
 
 nav {
-    background: #84994F;
+    background: #a43cc4;
     position: relative;
     display: flex;
     align-items: center;
@@ -25,8 +25,8 @@ nav {
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #cadd9b, #84994F);
-    color: #6A669D;
+    background: linear-gradient(90deg, #c43cbd, #a43cc4);
+    color: #5293f5;
     text-shadow: #44425e 2px 3px 2px;
     font-weight: bold;
     font-size: 1.7em;
@@ -65,7 +65,7 @@ nav ul.menu li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #84994F;
+    background: #a275c7;
     top: 100%;
     left: 0;
     flex-direction: column;
@@ -91,7 +91,7 @@ nav ul.menu li a:hover {
         flex-direction: column;
         display: none;
         width: 100%;
-        background: #84994F;
+        background: #a275c7;
     }
 
     nav .hamburger {
@@ -104,7 +104,7 @@ nav ul.menu li a:hover {
 
     .dropdown-content {
         position: relative;
-        background: #96ceb4;
+        background: #5302be;
     }
 }
 
@@ -115,7 +115,7 @@ section {
 }
 
 h2, h3 {
-    color: black;
+    color: #cf72eb;
     font-size: 130%;
     margin-bottom: 20px;
 }
@@ -137,7 +137,7 @@ h2, h3 {
     padding: 20px;
     max-width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #1C325B;
+    background-color: #ce8feb;
 }
 
 .card img {
@@ -147,6 +147,7 @@ h2, h3 {
 
 .card h3 {
     margin: 15px 0 10px 0;
+    color: #785496;
 }
 
 .card p {
@@ -228,7 +229,7 @@ h2{
 .flex{
     display: flex;
     flex-direction: column;
-    border: 8px double #84994F;
+    border: 8px double #7e149e;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;

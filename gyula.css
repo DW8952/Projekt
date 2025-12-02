@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #240768;
-    color: #1C325B;
+    color: #0985cc;
 }
 
 a{
@@ -110,11 +110,12 @@ section {
 }
 
 h2, h3 {
-    color: #00ccfe;
+    color: #0b9cf0;
     margin-bottom: 20px;
 }
 
 /* kartyak */
+
 
 .cards {
     display: flex;
@@ -132,7 +133,7 @@ h2, h3 {
     padding: 20px;
     max-width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #afabdb;
+    background-color: #8d45e0;
 }
 
 .card img {
@@ -142,6 +143,7 @@ h2, h3 {
 
 .card h3 {
     margin: 15px 0 10px 0;
+    color: #364e8f;
 }
 
 .card p {
@@ -165,7 +167,7 @@ h2, h3 {
 /* ect */
 
 hr {
-    border: 2px solid #00ccfe;
+    border: 2px solid #0b9cf0;
     width: 80%;
     margin-bottom: 60px;
 }
@@ -212,7 +214,7 @@ h2{
     border-radius: 50px;
 }
 .flex{
-    border: 8px double #1C325B;
+    border: 8px double #8d45e0;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;
