@@ -2,16 +2,17 @@ body {
     font-family: 'Monospace';
     margin: 0;
     padding: 0;
-    background-color: #1C325B;
-    color: #6A669D;
+    background-color:  rgb(199, 71, 98);
+    color: #ff9d9d;
 }
 
 a{
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 nav {
-    background: #6A669D;
+    background: #ee8080;
     position: relative;
     display: flex;
     align-items: center;
@@ -19,14 +20,13 @@ nav {
     padding: 10px 20px;
     position: sticky;
     top: 0;
-    overflow: hidden;
     z-index: 1;
 }
 
 nav .logo {
-    background: linear-gradient(90deg, #afabdb,#6A669D);
-    color: #1C325B;
-    text-shadow: #2d3c58 2px 3px 2px;
+    background: linear-gradient(90deg, #ffaaaa,#ee8080);
+    color: #b75cc4;
+    text-shadow: #3d215e 2px 3px 2px;
     font-weight: bold;
     font-size: 1.7em;
 }
@@ -60,7 +60,7 @@ nav ul.menu li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #6A669D;
+    background: rgb(221, 96, 148);
     top: 100%;
     left: 0;
     flex-direction: column;
@@ -111,7 +111,7 @@ section {
 }
 
 h2, h3 {
-    color: black;
+    color: rgb(136, 26, 118);
     margin-bottom: 20px;
 }
 
@@ -127,13 +127,13 @@ h2, h3 {
 }
 
 .card {
-    color: #f1e5a7;
+    color: #4f60be;
     border-radius: 15px;
     box-shadow: 12px 8px 20px rgba(0,0,0, 0.65);
     padding: 20px;
     max-width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #84994F;
+    background-color: #da74d2;
 }
 
 .card img {
@@ -154,7 +154,7 @@ h2, h3 {
 .card a {
     display: inline-block;
     margin-top: 10px;
-    color: #1C325B;
+    color: #2069d6;
     font-weight: bold;
 }
 
@@ -166,7 +166,7 @@ h2, h3 {
 /* ect */
 
 hr {
-    border: 2px solid black;
+    border: 2px solid rgb(221, 96, 148);
     width: 80%;
     margin-bottom: 60px;
 }
@@ -208,7 +208,7 @@ h2{
     border-radius: 50px;
 }
 .flex{
-    border: 8px double #6A669D;
+    border: 8px double #ac2a5c;
     margin-left: 230px;
     margin-right: 230px;
     border-radius: 40px;

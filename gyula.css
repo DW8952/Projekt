@@ -110,7 +110,7 @@ section {
 }
 
 h2, h3 {
-    color: #00ccfe;
+    color: #2c89d6;
     margin-bottom: 20px;
 }
 
@@ -127,13 +127,13 @@ h2, h3 {
 }
 
 .card {
-    color: #1C325B;
-    border-radius: 15px;
-    box-shadow: 12px 8px 20px rgba(0,0,0, 0.65);
-    padding: 20px;
-    max-width: 300px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #afabdb;
+  color: #1C325B;
+  border-radius: 15px;
+  box-shadow: 12px 8px 20px rgba(0,0,0, 0.65);
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #bf93e7;
 }
 
 .card img {
@@ -212,7 +212,7 @@ h2 {
   flex-direction: row-reverse;
 }
 .row {
-  border: 3px solid #003366;
+  border: 8px double #003366;
   border-radius: 25px;
   padding: 25px;
   display: flex;
